@@ -1,0 +1,177 @@
+/* ===================================================
+   1. TEMAS DE CORES (Escolha o tema do seu negócio)
+   =================================================== */
+/* 
+  PARA MUDAR O TEMA, basta substituir o bloco acima por um destes abaixo:
+
+  -- TEMA: Unhas / Esmalteria --
+  :root {
+    --cor-principal: #D81B60;
+    --cor-secundaria: #8E24AA;
+    --cor-fundo: #FCE4EC;
+    --cor-texto: #212121;
+  }
+
+  -- TEMA: Salão / Cabelo --
+  :root {
+    --cor-principal: #1F2937;
+    --cor-secundaria: #D4AF37;
+    --cor-fundo: #F3F4F6;
+    --cor-texto: #111827;
+  }
+
+  -- TEMA: hotdog --
+  :root {
+
+  --cor-principal: #E63946;    /* Cor dos botões e títulos principais 
+  --cor-secundaria: #FFB703;   /* Detalhes e bordas 
+  --cor-fundo: #FFFBEB;        /* Cor de fundo da página 
+  --cor-texto: #2B2D42;        /* Cor do texto principal 
+  }
+*/
+/* TEMA PADRÃO: Aulas Particulares / Reforço */
+:root {
+  --cor-principal: #1e3a8a;
+  --cor-secundaria: #0284c7;
+  --cor-fundo: #eff6ff;
+  --cor-texto: #0f172a;
+}
+
+/* ===================================================
+   2. RESET E ESTRUTURA GERAL
+   =================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+}
+
+.perfil-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%; /* Torna a imagem perfeitamente redonda */
+  object-fit: cover;
+  border: 3px solid var(--cor-principal);
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+} /* Cartão principal */
+
+.card {
+  width: 100%;
+  max-width: 480px;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  border-top: 6px solid var(--cor-principal);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+} /* Cabeçalho */
+
+header {
+  text-align: center;
+}
+
+#foto-perfil {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--cor-principal);
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: var(--cor-principal);
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+ /* Formulário */
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--cor-principal);
+}
+ /* Botão de agendamento */
+form button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: var(--cor-principal);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  opacity: 0.9;
+} /* Rodapé */
+
+footer {
+  margin-top: 25px;
+  padding-top: 15px;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+}
+
+footer p {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+#btn-whatsapp {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: 2px solid var(--cor-principal);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--cor-principal);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#btn-whatsapp:hover {
+  background: var(--cor-principal);
+  color: white;
+}

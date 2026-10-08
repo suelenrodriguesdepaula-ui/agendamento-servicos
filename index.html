@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Agendamento de Aulas</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="card">
+      <header>
+        <img id="foto-perfil" src="" alt="Foto do professor" />
+
+        <h1 id="titulo-empresa">Carregando...</h1>
+
+        <p id="descricao-empresa"></p>
+      </header>
+
+      <section>
+        <h2>Agende sua Aula</h2>
+
+        <form id="agendamento-form">
+          <label for="cliente-nome"> Nome do Aluno </label>
+
+          <input
+            type="text"
+            id="cliente-nome"
+            placeholder="Digite seu nome"
+            required
+          />
+
+          <label for="servicos-select"> Disciplina / Serviço </label>
+
+          <select id="servicos-select" required>
+            <option value="">Selecione uma opção</option>
+          </select>
+
+          <label for="agendamento-data"> Data </label>
+
+          <input type="date" id="agendamento-data" required />
+
+          <label for="agendamento-hora"> Horário </label>
+
+          <input type="time" id="agendamento-hora" required />
+
+          <button type="submit">📚 Confirmar Agendamento</button>
+        </form>
+      </section>
+
+      <footer>
+        <p>Quer tirar dúvidas sobre as aulas?</p>
+
+        <button type="button" id="btn-whatsapp">💬 Falar pelo WhatsApp</button>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "nome": "Telemarketing  - Reforço & Mentoria",
+  "descricao": "Aulas particulares personalizadas, preparação para exames e reforço escolar presencial ou online.",
+  "foto_perfil": "imagens/foto_perfil.jpeg",
+  "whatsapp": "5532999537062",
+  "sobre": "Texto apresentando o profissional ou negócio, sua experiência e forma de atendimento.",
+  "localizacao": "Endereço ou informação sobre onde o atendimento acontece.",
+  "servicos": [
+    {
+      "id": 1,
+      "nome": "Aula Individual de Matemática (1h)",
+      "preco": "R$ 60,00"
+    },
+    {
+      "id": 2,
+      "nome": "Reforço de Física (1h)",
+      "preco": "R$ 35,00"
+    },
+    {
+      "id": 3,
+      "nome": "Mentoria & Orientação de Estudos (1h)",
+      "preco": "R$ 80,00"
+    },
+    {
+      "id": 4,
+      "nome": "Pacote Mensal de Acompanhamento (4h)",
+      "preco": "R$ 220,00"
+    }
+  ]
+}
